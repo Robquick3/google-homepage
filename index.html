@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google Homepage</title>
+    <style type="text/css">
+    #logo {
+        padding-left: 50%;
+            }
+    #searchbar {
+        padding-left: 52.5%;
+    }
+    button:hover {
+        background-color:antiquewhite
+    }
+    #navleft {
+        float: left;
+        list-style-type: none;
+        padding-left: 15px;
+    }
+    #navright {
+        float: right;
+        list-style-type: none;
+        padding-right: 15px;
+    }
+    li {
+        display: inline;
+        margin: 10px;
+    }
+    li:hover {
+        text-decoration: underline;
+    }
+    #footleft {
+        padding-left: 15px;
+        list-style-type: none;
+    }
+    #footright {
+        padding-right: 15px;
+        list-style-type: none;
+    }
+    #footer{
+        padding-top: 525px;
+    }
+    .box {
+        display:flex;
+        justify-content: space-between;
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <ul id="navleft">
+            <li>About</li>
+            <li>Store</li>   
+        </ul>
+    </div>
+    <div >
+        <ul id="navright">
+            <li>Gmail</li>
+            <li>Images</li>
+        </ul>
+    </div>
+        <div id="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google" height="92px" width="272px" id="logopic" style="padding-top: 15%;" display=flex/>
+        </div>
+        <div id="searchbar">
+        <input type="text" width="350px"/>
+        <br>
+        <button>Search</button> <button>I'm Feeling Lucky</button>
+        </div>
+    
+    <footer class="box" id="footer">
+        <div>
+            <ul id="footleft">
+                <li>Advertising</li>
+                <li>Business</li>
+                <li>How Search Works</li>
+            </ul>   
+        </div>
+        <div>
+            <ul id="footright">
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
