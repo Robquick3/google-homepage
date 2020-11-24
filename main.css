@@ -1,0 +1,46 @@
+#logo {
+    padding-left: 50%;
+        }
+#searchbar {
+    padding-left: 52.5%;
+    position: relative;
+    top: 5px;
+    height: 35px;
+    width: 500px;
+    
+}
+button:hover {
+    background-color:antiquewhite
+}
+#navleft {
+    float: left;
+    list-style-type: none;
+    padding-left: 15px;
+}
+#navright {
+    float: right;
+    list-style-type: none;
+    padding-right: 15px;
+}
+li {
+    display: inline;
+    margin: 10px;
+}
+li:hover {
+    text-decoration: underline;
+}
+#footleft {
+    padding-left: 15px;
+    list-style-type: none;
+}
+#footright {
+    padding-right: 15px;
+    list-style-type: none;
+}
+#footer{
+    padding-top: 525px;
+}
+.box {
+    display:flex;
+    justify-content: space-between;
+}
